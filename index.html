@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Fitness Tracker application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Fitness Tracker</h1>
+            <p>Track your fitness journey</p>
+            <nav>
+                <ul>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="tracker" class="tracker">
+                <div class="workout">
+                    <h1>Workouts</h1>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="pics/cardio.jpg" alt="">
+                            <h2>Cardio Workouts</h2>
+                            <p>Improves heart health, boosts endurance, aids in weight management.</p>
+                            <a href="exercise.html?workout=cardio" class="card-btn">Let’s Go!</a>
+                        </div>
+                        <div class="card">
+                            <img src="pics/strength.jpg" alt="">
+                            <h2>Strength Training</h2>
+                            <p>Builds muscle, increases bone density, improves metabolism.</p>
+                            <a href="exercise.html?workout=strength" class="card-btn">Let’s Go!</a>
+                        </div>
+                        <div class="card">
+                            <img src="pics/flexibility.jpg" alt="">
+                            <h2>Flexibility Workouts</h2>
+                            <p>Increases range of motion, reduces injury risk, promotes relaxation.</p>
+                            <a href="exercise.html?workout=flexibility" class="card-btn">Let’s Go!</a>
+                        </div>
+                        <div class="card">
+                            <img src="pics/HIIT.jpg" alt="">
+                            <h2>High-Intensity Interval Training</h2>
+                            <p>Efficient for fat loss, improves cardiovascular health.</p>
+                            <a href="exercise.html?workout=hiit" class="card-btn">Let’s Go!</a>
+                        </div>
+                        <div class="card">
+                            <img src="pics/core.jpg" alt="">
+                            <h2>Core Workouts</h2>
+                            <p>Strengthens the core, improves posture and balance.</p>
+                            <a href="exercise.html?workout=core" class="card-btn">Let’s Go!</a>
+                        </div>
+                        <div class="card">
+                            <img src="pics/functional.jpg" alt="">
+                            <h2>Functional Training</h2>
+                            <p>Improves coordination and practical strength.</p>
+                            <a href="exercise.html?workout=functional" class="card-btn">Let’s Go!</a>
+                        </div>
+                        <div class="card">
+                            <img src="pics/sports.jpg" alt="">
+                            <h2>Sports-Specific Training</h2>
+                            <p> Enhances skills relevant to specific sports.</p>
+                            <a href="exercise.html?workout=sports" class="card-btn">Let’s Go!</a>
+                        </div>
+                        <div class="card">
+                            <img src="pics/yoga.jpg" alt="">
+                            <h2>Yoga</h2>
+                            <p>Reduces stress, enhances flexibility, promotes overall wellness.</p>
+                            <a href="exercise.html?workout=yoga" class="card-btn">Let’s Go!</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="faq">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faqbox">
+                    <span>How do I start a workout?</span>
+                    <img src="logo.svg" alt="">
+                    <div class="extra-content">
+                        To start a workout, select your desired workout option from the list.
+                    </div>
+                </div> 
+                <div class="faqbox">
+                    <span>Can I track my workout history?</span>
+                    <div class="extra-content">
+                        Currently, this tracker focuses on workout selection only.
+                    </div>
+                </div>                 
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
